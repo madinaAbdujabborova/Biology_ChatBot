@@ -107,6 +107,8 @@ def api_key_page():
             st.session_state.api_key = api_key
             st.session_state.current_page = "chatbot"
 
+
+
 # Page 2: Chatbot Interface
 def chatbot_page():
     st.title("🌿 Biology Chatbot")
@@ -132,19 +134,6 @@ def chatbot_page():
                 except Exception as e:
                     st.error(f"Error: {str(e)}")
 
-    # JavaScript to detect Enter key
-    st.markdown(
-        """
-        <script>
-        document.addEventListener("keydown", function(event) {
-            if (event.key === "Enter") {
-                window.parent.document.querySelector("button[title='Send']").click();
-            }
-        });
-        </script>
-        """,
-        unsafe_allow_html=True,
-    )
 
     # Display chat history
     for message in st.session_state.chat_history:
