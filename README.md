@@ -2,7 +2,7 @@
 
 ![Biology Chatbot](https://radical.vc/wp-content/uploads/2023/07/Biology-Image.jpg)
 
-A friendly and knowledgeable assistant chatbot specializing in biology, built with Streamlit and OpenAI GPT-4. This bot can answer questions on topics like cells, photosynthesis, genetics, ecology, and more, while maintaining a stylish and responsive user interface.
+A friendly and knowledgeable assistant chatbot specializing in biology, built with Streamlit and OpenAI GPT-4o-mini. This bot can answer questions on topics like cells, photosynthesis, genetics, ecology, and more, while maintaining a stylish and responsive user interface.
 
 ## Features
 
@@ -21,15 +21,15 @@ To run this project locally, follow these steps:
    cd biology-chatbot
 2. Install the required Python packages:
 
-bash
-Copy code
-pip install -r requirements.txt
+   ```bash
+   Copy code
+   pip install -r requirements.txt
 
 3. Run the chatbot:
 
-bash
-Copy code
-streamlit run biology.py
+   ```bash
+   Copy code
+   streamlit run biology.py
 
 4. Open the Streamlit app in your browser (usually available at http://localhost:8501).
 
