@@ -50,8 +50,9 @@ OpenAI API Key
 Streamlit
 
 ## Screenshots
-
-
+![Uploading Screenshot 2024-12-06 at 20.06.05.png…]()
+![Uploading Screenshot 2024-12-06 at 20.06.55.png…]()
+![Uploading Screenshot 2024-12-06 at 20.07.43.png…]()
 
 
 ## Acknowledgments
